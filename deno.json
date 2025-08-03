@@ -1,0 +1,9 @@
+{
+  "lock": false,
+  "tasks": {
+    "dev": "deno run -A --watch main.ts",
+    "build": "deno run -A main.ts && deno task build:site",
+    "build:site": "deno run -A npm:@11ty/eleventy",
+    "dev:site": "deno run -A npm:@11ty/eleventy --serve"
+  }
+}
