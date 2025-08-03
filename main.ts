@@ -47,8 +47,6 @@ let text = `---
 layout: "base.njk"
 title: "Josh's Filmsack Episode Watchlist"
 ---
-<link rel="stylesheet" href="/pico.css">
-
 ## Expected time to catch up
 
 I am currently **${sorted.length}** epidsodes behind.
